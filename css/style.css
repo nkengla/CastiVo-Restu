@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* hero */
+.container {
+  width: 88%;
+  margin: auto;
+}
+
+#section-hero {
+  background-color: #1f2937;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+ul .link-item a {
+  padding: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.text {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 1.5;
+}
+
+.head {
+  text-align: center;
+}
+
+.py {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.navbar {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* showcase */
+.row {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.row .column-1 {
+  width: 50%;
+}
+
+.column-1 .maintext {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.row .column-2 {
+  width: 50%;
+}
+
+.column-2 img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.column-1 .call-to-action {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* menu */
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 70px;
+}
+
+.menu div img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+}
+
+.menu div p {
+  width: 300px;
+}
+.menu div .text {
+  color: black;
+  text-align: center;
+}
+
+#section-quote {
+  background-color: #e5e7eb;
+}
+
+.quote .text-1 {
+  color: rgb(49, 48, 48);
+  font-size: 36px;
+  font-style: italic;
+  line-height: 1;
+}
+.quote .text-2 {
+  color: black;
+  font-size: 36px;
+  text-align: end;
+}
+
+/* call to action */
+.action {
+  background-color: #3882f6;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.action-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-2 .order {
+  border: 2px #f9faf8 solid;
+  border-radius: 8px;
+  padding: 0.5rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+/* FOOTER */
+#section-footer {
+  background-color: #1f2937;
+}
+
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer p {
+  color: #f9faf8;
+  text-align: center;
+}
